@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17dab734-b24f-4264-bb5c-aee5de8e7123" name="Default" comment="">
+    <list default="true" id="17dab734-b24f-4264-bb5c-aee5de8e7123" name="Default" comment="fix bags">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/DbHelper.php" afterPath="$PROJECT_DIR$/db/DbHelper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,18 +28,18 @@
       <file leaf-file-name="DbHelper.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/DbHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70621467">
-              <caret line="114" column="86" selection-start-line="114" selection-start-column="86" selection-end-line="114" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.15536723">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
               <folding>
-                <marker date="1446560463092" expanded="true" signature="1342:1480" placeholder="create table..if..." />
-                <marker date="1446560463092" expanded="true" signature="1693:1823" placeholder="create table..if..." />
-                <marker date="1446560463092" expanded="true" signature="2190:2314" placeholder="Insert into ..." />
-                <marker date="1446560463092" expanded="true" signature="2678:2776" placeholder="Insert into ..." />
-                <marker date="1446560463092" expanded="true" signature="4027:4044" placeholder="..." />
-                <marker date="1446560463092" expanded="true" signature="4372:4432" placeholder="select * fro..." />
-                <marker date="1446560463092" expanded="true" signature="4922:4980" placeholder="select * fro..." />
-                <marker date="1446560463092" expanded="true" signature="5831:5868" placeholder="select * fro..." />
-                <marker date="1446560463092" expanded="true" signature="6603:6661" placeholder="select * fro..." />
+                <marker date="1446560700776" expanded="true" signature="1341:1479" placeholder="create table..if..." />
+                <marker date="1446560700776" expanded="true" signature="1692:1822" placeholder="create table..if..." />
+                <marker date="1446560700776" expanded="true" signature="2189:2313" placeholder="Insert into ..." />
+                <marker date="1446560700776" expanded="true" signature="2677:2775" placeholder="Insert into ..." />
+                <marker date="1446560700776" expanded="true" signature="4025:4042" placeholder="..." />
+                <marker date="1446560700776" expanded="true" signature="4370:4430" placeholder="select * fro..." />
+                <marker date="1446560700776" expanded="true" signature="4920:4978" placeholder="select * fro..." />
+                <marker date="1446560700776" expanded="true" signature="5829:5866" placeholder="select * fro..." />
+                <marker date="1446560700776" expanded="true" signature="6601:6659" placeholder="select * fro..." />
               </folding>
             </state>
           </provider>
@@ -348,7 +348,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446559985135</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix bags">
+      <created>1446560527944</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1446560527944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +401,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="test" />
     <MESSAGE value="add singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add singleton" />
+    <MESSAGE value="fix bags" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,18 +499,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/DbHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70621467">
-          <caret line="114" column="86" selection-start-line="114" selection-start-column="86" selection-end-line="114" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.15536723">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
           <folding>
-            <marker date="1446560463092" expanded="true" signature="1342:1480" placeholder="create table..if..." />
-            <marker date="1446560463092" expanded="true" signature="1693:1823" placeholder="create table..if..." />
-            <marker date="1446560463092" expanded="true" signature="2190:2314" placeholder="Insert into ..." />
-            <marker date="1446560463092" expanded="true" signature="2678:2776" placeholder="Insert into ..." />
-            <marker date="1446560463092" expanded="true" signature="4027:4044" placeholder="..." />
-            <marker date="1446560463092" expanded="true" signature="4372:4432" placeholder="select * fro..." />
-            <marker date="1446560463092" expanded="true" signature="4922:4980" placeholder="select * fro..." />
-            <marker date="1446560463092" expanded="true" signature="5831:5868" placeholder="select * fro..." />
-            <marker date="1446560463092" expanded="true" signature="6603:6661" placeholder="select * fro..." />
+            <marker date="1446560700776" expanded="true" signature="1341:1479" placeholder="create table..if..." />
+            <marker date="1446560700776" expanded="true" signature="1692:1822" placeholder="create table..if..." />
+            <marker date="1446560700776" expanded="true" signature="2189:2313" placeholder="Insert into ..." />
+            <marker date="1446560700776" expanded="true" signature="2677:2775" placeholder="Insert into ..." />
+            <marker date="1446560700776" expanded="true" signature="4025:4042" placeholder="..." />
+            <marker date="1446560700776" expanded="true" signature="4370:4430" placeholder="select * fro..." />
+            <marker date="1446560700776" expanded="true" signature="4920:4978" placeholder="select * fro..." />
+            <marker date="1446560700776" expanded="true" signature="5829:5866" placeholder="select * fro..." />
+            <marker date="1446560700776" expanded="true" signature="6601:6659" placeholder="select * fro..." />
           </folding>
         </state>
       </provider>

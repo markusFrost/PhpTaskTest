@@ -3,7 +3,7 @@
 define("SDB_NAME" , "localhost");
 define("USER_NAME" , "admin");
 define("USER_PASSWORD" , "123456");
-define("DB_NAME" , "blalvbalDBBB");
+define("DB_NAME" , "PHPTaskTest");
 
 // table NAMEs
 define("TABLE_CALCULATIONS" , "table_calculations");
