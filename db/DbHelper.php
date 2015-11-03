@@ -97,6 +97,7 @@ class DbHelper
         }
 
         //echo "</br>";
+        $resultValue = "";
         foreach ($item->calc_result as &$value)
         {
             $query = "Insert into "."TABLE_CODES"." ( "."CALC_ID"." , "."CODE".") values ( "."$res_id"." , "."$value".")";
@@ -105,10 +106,13 @@ class DbHelper
 
             if ( $result == true)
             {
-                echo $value.", ";
+                //echo $value.", ";
+                $resultValue = $resultValue.$value." , ";
                 // echo $query." - ".var_dump($result)."</br>";
             }
         }
+
+        echo substr( $resultValue, 0 , strlen( $resultValue ) - 3 ); // remove last ,
 
         if (sizeof($item->calc_result ) == 0)
         {
