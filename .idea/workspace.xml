@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17dab734-b24f-4264-bb5c-aee5de8e7123" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/DbHelper.php" afterPath="$PROJECT_DIR$/db/DbHelper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhpTask.iws" />
@@ -25,12 +25,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.99435025">
+            <state vertical-scroll-proportion="-22.709677">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbHelper.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/DbHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44067797">
+              <caret line="235" column="82" selection-start-line="235" selection-start-column="82" selection-end-line="235" selection-end-column="82" />
+              <folding>
+                <marker date="1446561171257" expanded="true" signature="1341:1479" placeholder="create table..if..." />
+                <marker date="1446561171257" expanded="true" signature="1692:1822" placeholder="create table..if..." />
+                <marker date="1446561171257" expanded="true" signature="2189:2313" placeholder="Insert into ..." />
+                <marker date="1446561171257" expanded="true" signature="2677:2775" placeholder="Insert into ..." />
+                <marker date="1446561171257" expanded="true" signature="4025:4042" placeholder="..." />
+                <marker date="1446561171257" expanded="true" signature="4370:4430" placeholder="select * fro..." />
+                <marker date="1446561171257" expanded="true" signature="4920:4978" placeholder="select * fro..." />
+                <marker date="1446561171257" expanded="true" signature="5920:5957" placeholder="select * fro..." />
+                <marker date="1446561171257" expanded="true" signature="6692:6750" placeholder="select * fro..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +85,8 @@
         <option value="$PROJECT_DIR$/models/Item.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/php_files/startCalc.php" />
-        <option value="$PROJECT_DIR$/db/DbHelper.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/db/DbHelper.php" />
       </list>
     </option>
   </component>
@@ -310,7 +330,13 @@
       <option name="project" value="LOCAL" />
       <updated>1446560710086</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix bags">
+      <created>1446560899263</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1446560899263</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -445,29 +471,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/DbHelper.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15536723">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="create table..if..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="create table..if..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="Insert into ..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="Insert into ..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="select * fro..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="select * fro..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="select * fro..." />
-            <marker date="1446560700776" expanded="true" signature="-1:-1" placeholder="select * fro..." />
-          </folding>
+        <state vertical-scroll-proportion="-22.709677">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/db/DbHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.99435025">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="0.44067797">
+          <caret line="235" column="82" selection-start-line="235" selection-start-column="82" selection-end-line="235" selection-end-column="82" />
+          <folding>
+            <marker date="1446561171257" expanded="true" signature="1341:1479" placeholder="create table..if..." />
+            <marker date="1446561171257" expanded="true" signature="1692:1822" placeholder="create table..if..." />
+            <marker date="1446561171257" expanded="true" signature="2189:2313" placeholder="Insert into ..." />
+            <marker date="1446561171257" expanded="true" signature="2677:2775" placeholder="Insert into ..." />
+            <marker date="1446561171257" expanded="true" signature="4025:4042" placeholder="..." />
+            <marker date="1446561171257" expanded="true" signature="4370:4430" placeholder="select * fro..." />
+            <marker date="1446561171257" expanded="true" signature="4920:4978" placeholder="select * fro..." />
+            <marker date="1446561171257" expanded="true" signature="5920:5957" placeholder="select * fro..." />
+            <marker date="1446561171257" expanded="true" signature="6692:6750" placeholder="select * fro..." />
+          </folding>
         </state>
       </provider>
     </entry>

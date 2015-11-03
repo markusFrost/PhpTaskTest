@@ -180,7 +180,9 @@ class DbHelper
                             $value = $value . "</br>";
                         }
                     }
-                    echo "<td>" . $value . "</td>";
+                    //echo "<td>" . $value . "</td>";
+
+                    echo "<td>" . substr( $value, 0 , strlen( $value ) - 2 ) . "</td>";
                     echo "</tr>";
 
                 }
@@ -230,7 +232,8 @@ class DbHelper
                         $value = $value . "</br>";
                     }
                 }
-                echo "" . $value . "</td></tr>";
+                //echo "" . $value . "</td></tr>";
+                echo "" . substr( $value, 0 , strlen( $value ) - 2 ) . "</td></tr>";
 
             }
             echo '</table>';
