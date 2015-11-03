@@ -1,0 +1,145 @@
+#calc-name
+{
+    margin-top: 30px;
+    padding: 10px;
+    width: 700px;
+    height: 40px;
+}
+
+#textContent
+{
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+}
+
+#textResult
+{
+    width: 700px;
+    height: 100px;
+    padding: 10px;
+}
+
+ul#info-form
+{
+    list-style-type: none;
+    margin-top: 70px;
+}
+
+ul#info-form>li
+{
+    margin-bottom: 30px;
+}
+
+.buttonsMain
+{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#btnSubmit
+{
+    margin-left: 258px;
+}
+
+#btn-clear-fields
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+#right-menu-block
+{
+    background: cadetblue;
+    position: absolute;
+    height: 80px;
+}
+
+ul#right-block
+{
+    list-style: none;
+}
+
+ul#right-block>li
+{
+    margin-top: 10px;
+}
+ul#right-block>li>a
+{
+    color: white;
+}
+
+.error-textbox
+{
+    border: 1px solid red;
+}
+
+.success-textbox
+{
+    border: 1px solid gray;
+}
+
+.error-msg-label
+{
+    color: red;
+    position: absolute;
+    margin-left: 10px;
+    display: none;
+}
+
+#error-msg-label-for-calc-name
+{
+   margin-top: 40px;
+}
+
+#error-msg-label-for-textContent
+{
+   margin-top: 150px;
+}
+
+#error-msg-label-for-calc-code
+{
+    margin-top: 10px;
+}
+
+
+#show-all-calc-table>tbody>tr>th
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul#info_codes
+{
+    list-style: none;
+}
+
+ul#info_codes>li
+{
+    margin-top: 15px;
+}
+
+#numb_field
+{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+}
+
+#btn-clear-field-numb
+{
+    margin-left: 10px;
+}
+
+#empty-msg
+{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+
+
