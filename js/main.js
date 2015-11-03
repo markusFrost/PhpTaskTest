@@ -32,14 +32,15 @@ $(document).ready( function()
 
         if ( succesValidation )
         {
-            var calc_name =   $('#calc-name').val();
-            var textContent =  $('#textContent').val();
+            var calc_name =  encodeURIComponent( $('#calc-name').val() );
+            var textContent = encodeURIComponent( $('#textContent').val() );
+            //console.log( "calc-name=" + calc_name + "&textContent=" +  textContent  );
 
             $.ajax(
                 {
                     type : "POST",
                     url : "php_files/startCalc.php",
-                    data : "calc-name=" + calc_name + "&textContent=" + textContent,
+                    data : "calc-name=" + calc_name + "&textContent=" +  textContent ,
                     dataType : "html",
                     cashe : false,
                     success : function( data )

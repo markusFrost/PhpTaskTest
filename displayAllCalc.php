@@ -19,8 +19,8 @@
         <div class="col-sm-10 col-sm-offset-1">
         <?php
         include ('db/DbHelper.php');
-        $dbHelper = new DbHelper();
-        $dbHelper->getAllInformation();
+        DbHelper::getInstance();
+        DbHelper::getAllInformation();
             ?>
     </div>
     </div>

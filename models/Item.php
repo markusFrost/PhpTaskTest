@@ -18,7 +18,9 @@ class Item extends BaseEntity
 			$startSearchCode = false;
 			$failSearchCode = false;
 			$result_value = "";
-			
+
+
+
 			while ( $position < strlen($result-> calc_content))
 			{
 				$ch =  substr($result-> calc_content, $position, 1);

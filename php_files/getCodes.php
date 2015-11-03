@@ -6,7 +6,7 @@ if ( $_SERVER["REQUEST_METHOD"] == "GET" )
 
     include ('../db/DbHelper.php');
 
-    $dbHelper = new DbHelper();
-    $dbHelper->selectDate($numb, $type);
+    DbHelper::getInstance();
+    DbHelper::selectDate($numb, $type);
 }
 ?>

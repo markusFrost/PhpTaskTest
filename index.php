@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--        <meta charset="windows-1251">-->
+        <meta charset="windows-1251">
 
-    <meta charset="utf-8">
+<!--    <meta charset="utf-8">-->
+
+
     <title>PHP Task - Main Page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
